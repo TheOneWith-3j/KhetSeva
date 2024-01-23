@@ -1,0 +1,68 @@
+/* static/css/main.css */
+
+body {
+    background-color: #03421c; 
+    background-image: url('{{ url_for("static", filename="images/bg.jpg") }}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    border: 3px solid #d0ff00; /* Add a border to the navbar */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #03421c; /* Set text color for navbar links */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #03421c; /* Set background color for the navbar toggler icon */
+}
+
+.container {
+    background-color: #c8f5ca; /* Set a white background for the content container */
+    padding: 20px; /* Add some padding to the content container */
+    margin-top: 20px; /* Add space between the navbar and content */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    border: 3px solid #d0ff00;
+    color: #03421c;
+}
+
+
+.title{
+    color: #ffffff;
+    font-weight: 900;
+    background-color: #03421c9f;
+    padding: 1vh;
+}
+
+.subtitle{
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #03421c9f;
+    /* background-opacity: 50%; */
+    padding: 1vh;
+
+}
+
+.bg-dark{
+    background-color: #03421c !important;
+    /* font-weight: 900; */
+}
+/* Customize other elements as needed */
+.nav-link{
+    background-color: #c8f5ca;
+    margin: 2px;
+    border-radius: 10px;
+    color: #03421c;
+    font-weight: 600;
+}
+
+
+.input-group-text{
+    color: #ffffff  ;
+    background-color: #006d2cc4;
+}

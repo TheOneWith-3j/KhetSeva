@@ -1,0 +1,24 @@
+{% extends 'base.html' %} {% block title %}Welcome{% endblock title %} 
+
+{% block content %}
+
+<div class="row-sm p-sm-5">
+    <div class="col-sm-12 p-sm-5">
+        <h2> About Me</h2>
+        <p>
+            Agriculture, the backbone of global food production, faces escalating challenges exacerbated by climate variability, resource constraints, and market uncertainties. In response, the integration of advanced technologies is becoming imperative to ensure sustainable and efficient farming practices. This project proposes a multifaceted approach harnessing the power of machine learning for enhanced plant disease detection, personalized crop recommendations, and accurate crop price prediction.
+
+            The first component leverages Transfer Learning with the MobileNet V2 model to revolutionize plant disease detection. By capitalizing on pre-trained neural network weights, this model offers a robust solution for early identification of diseases, enabling timely interventions to safeguard crop health.
+            
+            In the second phase, a Support Vector Machine (SVM) with an RBF kernel is employed for crop recommendation. This model analyzes soil and climate data to provide tailored suggestions, empowering farmers to make optimal choices for their specific agricultural conditions and geographic locations.
+            
+            The third component employs a Random Forest Regressor to predict crop prices. By leveraging historical data and relevant market indicators, this model enhances farmers' capacity to anticipate and navigate market fluctuations, fostering informed decision-making.
+            
+            The amalgamation of these models into a cohesive system aims to create a transformative tool for the agricultural community. By combining disease detection, crop recommendation, and price prediction, this project strives to contribute to a more resilient, sustainable, and data-driven agricultural landscape. The subsequent sections will delve into the methodology, results, and implications of each component, demonstrating the potential for these technologies to revolutionize modern farming practices.
+            
+        </p>
+    </div>  
+</div>
+
+
+{% endblock content %}
